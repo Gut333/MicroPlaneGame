@@ -9,6 +9,8 @@ public class CameraFollow : MonoBehaviour
     bool isFollow;
     [SerializeField] float smoothTime = 1f;
     Vector3 velocity = Vector3.zero;
+    
+
     void Start()
     {
 
